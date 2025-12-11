@@ -1,0 +1,8 @@
+[package]
+name = "actix_pro"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-rt = "2.11.0"
+actix-web = "4.12.1"
