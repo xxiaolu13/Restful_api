@@ -1,2 +1,2 @@
 [workspace]
-members = ["actix_pro", "axum_pro", "restful_api_test"]
+members = ["actix_test", "axum_test", "restful_api"]

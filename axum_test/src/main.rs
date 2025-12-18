@@ -1,10 +1,7 @@
 use axum::{
-    Json, Router,
-    http::StatusCode,
-    routing::{get, post},
-    serve::Listener,
+    Router,
+    routing::get,
 };
-use tokio::net;
 
 async fn health_check() -> &'static str {
     "it's health"
